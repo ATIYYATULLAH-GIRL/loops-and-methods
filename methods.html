@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Methods in HTML</title>
+    </head>
+    <body>
+        <h2>JS String Methods</h2>
+        <p>Basic Methods</p>
+        <script>
+            var str="AmAzinG"
+            document.write(str.toUpperCase());
+            document.write("<br>");
+            document.write(str.toLowerCase());
+            document.write("<br>");
+            document.write(str.startsWith("i"));  // true or false
+            document.write("<br>")
+
+            var sent="I learned know things about JS"
+            var word=new RegExp("about");
+            var res=word.test(sent);
+            document.write(res); //true or false
+        </script>
+    </body>
+</html>
